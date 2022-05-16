@@ -555,24 +555,7 @@ ul {
 }
 
 @media screen and (max-width:768px) {
-    .nav__cont--der {
-        
-        transform: translateX(-40px);
-    }
-
-    .nav__cont--centro {
-        
-        transform: translateX(-40px);
-    }
-
-    .headerservicio {
-        
-        background-position: center;
-        background-size: cover;
-        width: 720px;
-        transform: translateX(-30px);
-    }
-
+   
     .header__display--proy {
         transform: translate(0px, 150px);
     }
@@ -585,15 +568,20 @@ ul {
         transform: translateX(-30px);
     }
 
-    .footer {
-        width: 95%;
+}
+
+@media screen and (max-width:425px) {
+
+    .section__back--proy {
+        
+        width: 400px;
+        transform: translateX(-30px);
     }
 
-    .footer__cont--der {
-        transform: translateX(-50px);
+    .sectionProy__img {
+
+        width: 380px;
     }
-
-
 }
 
 /* ayuda */
@@ -663,6 +651,50 @@ ul {
     display: grid;
     grid-area: elel2;
     transform: translate(879px, -490px);
+}
+
+.sectionHelp__img2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .header__display--help {
+        
+        transform: translate(0px, 150px);
+   
+    }
+
+    .sectionHelp__img {
+       
+        transform: translate(-65px, -30px);
+        width:350px ;
+        height:450px ;
+    }
+
+    .sectionHelp__subtext {
+        
+        transform: translate(400px , -330px);
+        margin: 20px auto;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .sectionHelp__text {
+        
+        transform: translate(-60px ,50px);
+        margin: 20px auto;
+        font-size: 35px;
+    }
+
+    .sectionHelp__img2 {
+        transform: translate(-410px ,-30px);
+        width: auto;
+        height: 250px;
+    }
 }
 
 /* contacto */
