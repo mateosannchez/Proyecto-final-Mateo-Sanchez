@@ -1,0 +1,81 @@
+.nav {
+    $width:map-get($map:tamaño , $key:ancho);
+    display: flex;
+    justify-content: center;
+    background-color: white;
+
+
+    & {
+        
+        $display:map-get($map: display, $key:f );
+        justify-content: space-between;
+        width: 95%;
+        align-items: center;
+    }
+    
+    &__cont {
+    
+        $display:map-get($map: display, $key:f );
+        align-items: center;
+        transform: translate(-20px, -15px);
+    
+    }
+    
+    &__cont--centro {
+        
+        $color:map-get($map: color, $key:principal );
+        text-align: center;
+        list-style-type: none;
+    
+    }
+    
+    &__cont--der {
+    
+        $display:map-get($map: display, $key:f );
+        justify-content: end;
+        align-items: center;
+        font-size: 100px;
+    
+    
+    }
+    
+    .mateo {
+        width: 95%;
+        font-size: 50px;
+    }
+    
+    .mateo__li {
+        margin-bottom: 50px;
+        padding-top: 10px;
+        font-size: 50px;
+    }
+    
+    .cont__redes {
+        margin-top: 10px;
+        width: 100%;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+    
+    
+    }
+    
+    &__cont--enlaces {
+        $color:map-get($map: color, $key:principal );
+        text-decoration: none;
+        font-size: 25px;
+    
+    }
+    
+    ul {
+        list-style: none;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+    }
+}
+
+

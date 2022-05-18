@@ -1,0 +1,50 @@
+.section__grid {
+
+    $display:map-get($map: display, $key:g );
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+        "ele1"
+        "ele2";
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+
+
+    &__img {
+    
+        @include margin
+    
+    }
+    
+    &__letras {
+    
+        $display:map-get($map: display, $key:f );
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    &__text {
+    
+        font-size: 50px;
+        color: black;
+        font-weight: bold;
+        $width:map-get($map:tamaño , $key:ancho);
+        $display:map-get($map: display, $key:g );
+        grid-area: ele1;
+        text-align: start;
+        transform: translate(0px, -80px);
+    
+    }
+    
+    &__subtext {
+    
+        color: gray;
+        text-align: start;
+        $width:map-get($map:tamaño , $key:ancho);
+        margin-top: 16px;
+        display: grid;
+        grid-area: ele2;
+    
+    
+    }
+}

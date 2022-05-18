@@ -1,0 +1,22 @@
+@import "../componentes/global";
+@import "../componentes/profile";
+
+@import "../componentes/nav";
+@import "../componentes/header";
+@import "../componentes/section";
+@import "../componentes/footer";
+
+$color: (
+    principal: #FF6620,
+
+);
+
+$display: (
+    f:flex,
+    g:grid,
+);
+
+$tamaño: (
+    ancho:100%,
+    largo:100%,
+);
