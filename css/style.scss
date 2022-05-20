@@ -20,3 +20,9 @@ $tamaño: (
     ancho:100%,
     largo:100%,
 );
+
+@mixin margin {
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-top: 10px;
+}
