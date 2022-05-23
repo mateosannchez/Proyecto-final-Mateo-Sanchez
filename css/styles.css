@@ -181,6 +181,7 @@ ul {
 .section__subtext {
 
     color: gray;
+    font-size: 18px;
     text-align: start;
     width: 100%;
     margin-top: 16px;
@@ -207,33 +208,38 @@ ul {
 }
 
 .footer__cont--centro {
-
-    text-align: center;
+    
+    text-align: start;
     list-style-type: none;
     margin-top: 15px;
-    margin-left: 30px;
-    width: 35%;
-    transform: translateX(1110px)
-}
-
-.footer__parr {
-
-    margin-top: 15px;
-    margin-left: 30px;
-}
-
-.footer__cont--der {
     display: flex;
     justify-content: end;
     align-items: center;
-    font-size: 200px;
+    width: 95%;
+    
+}
+
+.footer__parr {
+   
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.footer__cont--der {
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
     margin-right: 30px;
-    color: gray;
+    width: 95%;
 
 }
 
 .footer__copy {
-    margin-left: 30px;
+    
+    width: 50%;
+    margin-left: 70px;
     color: gray;
 }
 
@@ -278,18 +284,25 @@ ul {
     }
 
     .section__text {
-
-        font-size: 40px;
+       
+        font-size: 30px;
         color: black;
         font-weight: bold;
-        transform: translate(-50px, -10px);
+        width: 100%;
+        margin-top: 170px;
+        margin-left: -60px;
+        
+        
     }
 
     .section__subtext {
-
+        
         color: gray;
-        font-size: 17px;
-        transform: translateX(-50px)
+        font-size: 15px;
+        margin-left: -60px;
+        transform: translateY(-60px);
+        
+       
     }
 
     .footer__cont--centro {
@@ -372,23 +385,24 @@ ul {
     }
 
     .section__img {
-
+       
         margin: 50px;
-        transform: translateX(25px);
+        margin-left: 90px;
     }
 
 
     .section__text {
-
+        
         font-size: 20px;
         text-align: center;
-        transform: translate(1px, -80px);
-        margin-top: 20px;
+        margin-top: 50px;
+        margin-left: 3px;
 
     }
 
     .section__subtext {
-        color: gray;
+       
+        margin-left: 3px;
         text-align: center;
         transform: translate(1px, -80px);
 
@@ -506,7 +520,7 @@ ul {
     }
 
     .section__grid--serv {
-
+        margin-left: 30px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -557,12 +571,13 @@ ul {
     }
 
     .section__back--serv {
-
-        transform: translateX(-10px);
+        transform: translateX(-40px);
         width: 403px;
-
     }
 
+    .section__grid--serv {
+        width: 20%;
+    }
     .servicesection__img {
 
         width: 350px;
@@ -652,7 +667,7 @@ ul {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 500px;
-        transform: translateX(-30px);
+        
     }
 
 }
