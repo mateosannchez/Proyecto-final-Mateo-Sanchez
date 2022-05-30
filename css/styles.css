@@ -328,6 +328,8 @@ ul {
 
 }
 
+
+
 @media screen and (max-width:425px) {
 
     .ri-menu-line {
@@ -366,8 +368,6 @@ ul {
     .nav .check:checked~.nav__cont--centro {
         opacity: 1;
     }
-
-
 
 
     .header__sublogo {
@@ -415,6 +415,18 @@ ul {
     }
 }
 
+@media screen and (max-width:375px) {
+
+.rounded {
+    
+    margin: 60px;
+}
+
+.section__text {
+    
+    margin-left: 0px;
+}
+}
 
 /* servicio */
 
@@ -589,6 +601,13 @@ ul {
     }
 }
 
+@media screen and (max-width:375px) {
+    .section__back--serv {
+        
+        width: 351px;
+    }
+}
+
 /* proyecto */
 
 .header__display--proy {
@@ -729,6 +748,22 @@ ul {
 
         width: 380px;
     }
+}
+@media screen and (max-width:375px) {
+    .section__back--proy {
+        width: 350px;
+        
+    }
+
+    .sectionProy__img {
+        width: 340px;
+    }
+
+    .section__grid--proy {
+        width: 83%;
+        
+    }
+
 }
 
 /* ayuda */
@@ -930,6 +965,19 @@ ul {
 
 }
 
+@media screen and (max-width: 768px) {
+    
+    .sectionHelp__img {
+       
+        width: 300px;
+        height: 434px;
+    }
+
+    .sectionHelp__text {
+        transform: translate(65px, -110px);
+    }
+}
+
 /* contacto */
 
 .headerContac__display {
@@ -1105,4 +1153,13 @@ ul {
         padding: 57px !important;
 
     }
+
+}
+
+@media screen and (max-width:375px) {
+    .sectionContac__1 {
+       
+        transform: translateX(-15px);
+    }
+
 }
